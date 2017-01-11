@@ -1,0 +1,24 @@
+package com.acadgild;
+
+public class Hello {
+
+	public void Hello1(String stud1,int rollno1,int marks1){
+		System.out.println("The details of student1 is:"+" Student1 name: "+stud1+" Student1 rollno: " +rollno1+" Student1 marks:"+marks1);
+		}
+	public void Hello2(String stud2,int rollno2,int marks2){
+		System.out.println("The details of student1 is:"+" Student1 name: "+stud2+"Student2 rollno: "+rollno2+" Student2 marks:"+marks2);
+		}
+	public void Hello3(String stud3,int rollno3,int marks3){
+		System.out.println("The details of student1 is:"+" Student1 name: "+stud3+" Student1 rollno: " +rollno3+" Student1 marks:"+marks3);
+	}
+	
+	public static void main(String[] args) {
+		
+		Hello obj = new Hello();
+		obj.Hello1("Rohit", 01, 86);
+		obj.Hello2("Rahul", 02, 98);
+		obj.Hello3("Shiva",03, 78);
+		
+	}
+
+}
